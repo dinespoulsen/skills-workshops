@@ -30,3 +30,9 @@ describe "returning a 1x1 rectangle" do
     expect(rectangle(1, 1)).to eq("|\n")
   end
 end
+
+describe "returning a 1x1 rectangle" do
+  it "returns a rectangle of the right size" do
+    expect(rectangle(0, 0)).to eq("Rectangle does not exist")
+  end
+end
